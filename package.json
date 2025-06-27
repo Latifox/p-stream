@@ -17,10 +17,7 @@
     "preinstall": "npx -y only-allow pnpm"
   },
   "browserslist": {
-    "production": [
-      "defaults",
-      "chrome > 90"
-    ],
+    "production": ["defaults", "chrome > 90"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
@@ -36,7 +33,7 @@
     "@headlessui/react": "^1.7.19",
     "@ladjs/country-language": "^1.0.3",
     "@marsidev/react-turnstile": "^0.7.2",
-    "@movie-web/providers": "github:p-stream/providers#production",
+    "@movie-web/providers": "^2.4.13", // ✅ NPM version instead of GitHub
     "@noble/hashes": "^1.8.0",
     "@plasmohq/messaging": "^0.6.2",
     "@react-spring/web": "^9.7.5",
